@@ -123,3 +123,13 @@
 //  disc1(200); 
 
 
+// ! Arrays Loops
+
+let arr = [1,2,5,7,10,15];
+
+let arr1 = arr.forEach(function(val){
+    if(val==7){
+        console.log(val);
+    }
+})
+
